@@ -13,6 +13,7 @@ except ImportError:
 urlparse.uses_netloc.append('postgres')
 urlparse.uses_netloc.append('postgresql')
 urlparse.uses_netloc.append('postgis')
+urlparse.uses_netloc.append('mongodb')
 urlparse.uses_netloc.append('mysql')
 urlparse.uses_netloc.append('mysql2')
 urlparse.uses_netloc.append('sqlite')
@@ -23,6 +24,7 @@ SCHEMES = {
     'postgres': 'django.db.backends.postgresql_psycopg2',
     'postgresql': 'django.db.backends.postgresql_psycopg2',
     'postgis': 'django.contrib.gis.db.backends.postgis',
+    'mongodb': 'django_mongodb_engine',
     'mysql': 'django.db.backends.mysql',
     'mysql2': 'django.db.backends.mysql',
     'sqlite': 'django.db.backends.sqlite3'
