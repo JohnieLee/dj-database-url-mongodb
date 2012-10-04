@@ -8,7 +8,7 @@ This simple Django utility allows you to utilize the
 `12factor <http://www.12factor.net/backing-services>`_ inspired
 ``DATABASE_URL`` environment variable to configure your Django application.
 
-Note: this is a temporary fork of kennethreitz to provide MongoDB support.
+**Note: this is a temporary fork of kennethreitz to provide MongoDB support.**
 
 
 Usage
