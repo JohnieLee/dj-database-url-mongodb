@@ -37,9 +37,9 @@ This has the effect of four slashes being present for an absolute file path:
 from setuptools import setup
 
 setup(
-    name='dj-database-url',
+    name='dj-database-url-mongodb',
     version='0.2.1.1',
-    url='https://github.com/amulree/dj-database-url.git',
+    url='https://github.com/amulree/dj-database-url-mongodb.git',
     license='BSD',
     author='Kenneth Reitz, Amulree Developer',
     author_email='me@kennethreitz.com',
