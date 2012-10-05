@@ -24,7 +24,7 @@ Parse an arbitrary Database URL::
 Supported databases
 -------------------
 
-Support currently exists for PostgreSQL, PostGIS, MySQL and SQLite.
+Support currently exists for PostgreSQL, PostGIS, MongoDB, MySQL and SQLite.
 
 SQLite connects to file based databases. The same URL format is used, omitting
 the hostname, and using the "file" portion as the filename of the database.
@@ -38,10 +38,10 @@ from setuptools import setup
 
 setup(
     name='dj-database-url',
-    version='0.2.1',
-    url='https://github.com/kennethreitz/dj-database-url',
+    version='0.2.2',
+    url='https://github.com/amulree/dj-database-url.git',
     license='BSD',
-    author='Kenneth Reitz',
+    author='Kenneth Reitz, Amulree Developer',
     author_email='me@kennethreitz.com',
     description='Use Database URLs in your Django Application.',
     long_description=__doc__,
