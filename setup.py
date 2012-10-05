@@ -38,7 +38,7 @@ from setuptools import setup
 
 setup(
     name='dj-database-url',
-    version='0.2.2',
+    version='0.2.1.1',
     url='https://github.com/amulree/dj-database-url.git',
     license='BSD',
     author='Kenneth Reitz, Amulree Developer',
